@@ -134,3 +134,5 @@ console.log(dienThoai)
 // hocSinh.soDT = 123456789
 // hocSinh.diaChi = "quan go vap"
 // console.log(hocSinh)
+
+console.log(1+2)
