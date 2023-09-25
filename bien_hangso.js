@@ -74,16 +74,16 @@ let b = 7
 // cau b
 // console.log((a+b)/2)
 
-// cau c
-let x = 3
-let y = 4
-let z = 6
-console.log("ket qua bieu thuc 1:", x**2+2*x+1)
-console.log("ket qua bieu thuc 2:", x**3-3*x*y-5*y+3*y**2)
-console.log("ket qua bieu thuc 3:", (x*y)**2-2*x**2*y+13*y)
-console.log("ket qua bieu thuc 4:", 4*x**3+3*x*y+y**2-(2*x**2-3*y))
-console.log("ket qua bieu thuc 5:", (5*x**2)/(4*x*y)+y**2)
-console.log("ket qua bieu thuc 6:", x**2-2*z*x*y/y**2+5*x-2*y**2+4*x*z**3+z**3)
+// // cau c
+// let x = 3
+// let y = 4
+// let z = 6
+// console.log("ket qua bieu thuc 1:", x**2+2*x+1)
+// console.log("ket qua bieu thuc 2:", x**3-3*x*y-5*y+3*y**2)
+// console.log("ket qua bieu thuc 3:", (x*y)**2-2*x**2*y+13*y)
+// console.log("ket qua bieu thuc 4:", 4*x**3+3*x*y+y**2-(2*x**2-3*y))
+// console.log("ket qua bieu thuc 5:", (5*x**2)/(4*x*y)+y**2)
+// console.log("ket qua bieu thuc 6:", x**2-2*z*x*y/y**2+5*x-2*y**2+4*x*z**3+z**3)
 
 // // cau d
 // let duongKinh = 5
@@ -91,39 +91,39 @@ console.log("ket qua bieu thuc 6:", x**2-2*z*x*y/y**2+5*x-2*y**2+4*x*z**3+z**3)
 // let dienTich = 3.14*(duongKinh/2)**2
 // console.log("chu vi hinh tron:", chuVi, "dien tich hinh tron:", dienTich)
 
-// // cau e
-// let dai = 15
-// let rong = 10
-// let chuvi = (dai + rong)*2
-// let dientich = dai*rong
-// console.log("chu vi hcn:", chuvi, "dien tich hcn:", dientich)
+// cau e
+let dai = 15
+let rong = 10
+let chuvi = (dai + rong)*2
+let dientich = dai*rong
+console.log("chu vi hcn:", chuvi, "dien tich hcn:", dientich)
 
-// // cau f
-// let S = 120
-// let t = 130
-// let V = S/(t/60)
-// console.log(V)
+// cau f
+let S = 120
+let t = 130
+let V = S/(t/60)
+console.log("van toc bang:", V)
 
-// // cau g
-// let tgian = 150
-// let vantoc = 60
-// let quangduong = vantoc*tgian/60
-// console.log(quangduong)
+// cau g
+let tgian = 150
+let vantoc = 60
+let quangduong = vantoc*tgian/60
+console.log("quang duong bang:", quangduong)
 
-// // cau h
-// let vtoc = 15.2
-// let tg = 3
-// let qd = vtoc*tg
-// console.log(qd)
+// cau h
+let vtoc = 15.2
+let tg = 3
+let qd = vtoc*tg
+console.log("quang duong bang:", qd)
 
-// // cau i
-// let time = 2+40/60
-// let vt = 42
-// let ab = time*vt
-// console.log(ab)
+// cau i
+let time = 2+40/60
+let vt = 42
+let ab = time*vt
+console.log("do dai quang duong AB la:", ab)
 
-// // cau j
-// console.log(8*5*6+8*3*5*6)
+// cau j
+console.log("the tich khoi go:", 8*5*6+8*3*5*6)
 
 
 // // let hocSinh = {
