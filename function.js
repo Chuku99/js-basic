@@ -23,3 +23,5 @@ function tinhNhan (a,b) {
 
 const kq3 = 11*22
 console.log(kq3)
+
+// ABDEF
