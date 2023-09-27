@@ -77,16 +77,7 @@ function vanToc(S,t) {
 const van_toc = vanToc(120,130/60)
 console.log(van_toc)
 
-function namNhuan(year) {
-    const result = year%4
-    return result
-}
-if result {
-    console.log("nam nhuan", namNhuan)
-}else {
-    console.log("Nam k nhuan", namNhuan)
-}
-let year = 1004
+
 
 
 
