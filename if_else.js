@@ -68,24 +68,74 @@ console.log(checkNguyenAmPhuAm("q"))
 console.log(checkNguyenAmPhuAm("a"))
 
 // 2.a
-function timNghiem(a,x,b){
-    let ptrinh = a*x**2 + b*x + c 
-    if (a==0 && b==0){
+let a = 2
+let b = 3
+let c = 1
+function timNghiem(a,b,c){
+    let delta = b**2-4*a*c
+    if (delta<0){
         return "ptrinh vo nghiem"
     }
-    else if (a==0 ){
-        return "ptrinh co 1 nghiem la -c/b"
+    else if (delta==0 ){
+        return `ptrinh co 1 nghiem la x1=x2= ${(-b/2*a)}`
     }
     else if (b*2-4*a*c < 0){
         return "ptrinh vo nghiem"
 
     }
     else {
-        return (-b + MathMLElement.sqrt(b*2-4*a*c)/a) && 
-        
+        const x1 = -b + Math.sqrt(delta)/2*a
+        const x2 = -b - Math.sqrt(delta)/2*a
     }
 
 }
+console.log(timNghiem(a,b,c))
 
+function thueThuNhap(luong) {
+    if (luong>=20) {
+        return "thue thu nhap la:", 0.2*luong
+    }
+    else if (luong>=15) {
+        return "thue thu nhap la:", 0.15*luong
+    }
+    else {
+        return "k co thue thu nhap"
+    }
+}
+console.log(15)
+
+function hocLuc(diem) {
+    if (diem>=9){
+        return "hang A"
+    }
+    else if (7<=diem<9) {
+        return "hang B"
+    }
+    else if (5<=diem<7) {
+        return "hang C"
+    }
+    else {
+        return "hang D"
+    }
+}
+console.log(hocLuc(7.5))
+
+function cuocDT(so_phut) {
+    const phiThueBao = 25000
+    let tongChiPhi = 0
+    let chiPhi = 0
+    if (so_phut<50) {
+        chiPhi= so_phut*600
+    }
+    else if (50<so_phut && so_phut<200){
+        chiPhi= 50*600 + (so_phut-50)*400
+    }
+    else if (so_phut>200) {
+        chiPhi = 50*600+150*400+(so_phut-200)*200
+    }
+    tongChiPhi = phiThueBao + chiPhi
+    return tongChiPhi
+}
+console.log(cuocDT(170))
 
 
