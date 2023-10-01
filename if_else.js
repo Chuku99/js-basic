@@ -138,4 +138,31 @@ function cuocDT(so_phut) {
 }
 console.log(cuocDT(170))
 
+function tien_dien(p) {
+    let so_tien = 0
+    let tong_tien_dien = 0 
+    if (p<50) {
+        so_tien = p*1678
+    }
+    else if (51<=p<=100) {
+        so_tien = (p-50)*1734 + 50*1678
+    }
+    else if (101<=p<=200) {
+        so_tien = (p-100)*2014 + 50*1678 + 50*1734
+    }
+    else if (201<=p<=300) {
+        so_tien = (p-200)*2536 + 100*2014 + 50*1678 + 50*1734
+    }
+    else if (301<=p<=400) {
+        so_tien = (p-300)*2834 + 100*2536 + 100*2014 + 50*1678 + 50*1734
+    }
+    else if (p>400){
+        so_tien = (p-400)*2927 + 100*2834 + 100*2536 + 100*2014 + 50*1678 + 50*1734
+    }
+    tong_tien_dien = so_tien
+    return tong_tien_dien
+
+}
+console.log(tien_dien(201))
+
 
