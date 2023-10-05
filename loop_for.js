@@ -65,6 +65,17 @@
 // }
 // let arr = [3,451,5,2,6,76,3,5,1,243,6,4]
 
+// 1f
+let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
+let doDaiMang = arr.length
+const tanSuatXuatHien = {}
+for (let i = 0; i < doDaiMang; i++){
+    const phanTuThuI = arr[i];
+    tanSuatXuatHien[phanTuThuI] = (tanSuatXuatHien[phanTuThuI] || 0) + 1;
+}
+console.log('=>>>', tanSuatXuatHien)
+
+
 
 
 
