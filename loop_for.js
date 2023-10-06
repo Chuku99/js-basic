@@ -6,13 +6,13 @@
 // }
 
 // 1b
-// let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
-// let doDaiMang = arr.length
-// let tong  = 0
-// for (i=0; i<doDaiMang; i++) {
-//     tong += arr[i]
-// }
-// console.log(tong)
+let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
+let doDaiMang = arr.length
+let tong  = 0
+for (i=0; i<doDaiMang; i++) {
+    tong += arr[i]
+}
+console.log(tong)
 
 // // 1c
 // let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
@@ -52,28 +52,19 @@
 
 
 
-
 // // 1f
-// function dem_so_lan_xuat_hien_pt(arr, x) {
-//     let count = 0
-//     for (i=0; i<arr.length; i++) {
-//         if (arr[i]==x) {
-//             count++
-//         }
-//     }
-//     console.log("phan tu"+ x + "xuat hien"+ count + "lan")
+// let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
+// let doDaiMang = arr.length
+// const tanSuatXuatHien = {}
+// for (let i = 0; i < doDaiMang; i++){
+//     const phanTuThuI = arr[i];
+//     tanSuatXuatHien[phanTuThuI] = (tanSuatXuatHien[phanTuThuI] || 0) + 1;
 // }
-// let arr = [3,451,5,2,6,76,3,5,1,243,6,4]
+// console.log('=>>>', tanSuatXuatHien)
 
-// 1f
-let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
-let doDaiMang = arr.length
-const tanSuatXuatHien = {}
-for (let i = 0; i < doDaiMang; i++){
-    const phanTuThuI = arr[i];
-    tanSuatXuatHien[phanTuThuI] = (tanSuatXuatHien[phanTuThuI] || 0) + 1;
-}
-console.log('=>>>', tanSuatXuatHien)
+
+
+
 
 
 
