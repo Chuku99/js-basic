@@ -5,14 +5,14 @@
 //     console.log("phan tu thu %s = %s", i, arr[i])
 // }
 
-// 1b
-let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
-let doDaiMang = arr.length
-let tong  = 0
-for (i=0; i<doDaiMang; i++) {
-    tong += arr[i]
-}
-console.log(tong)
+// // 1b
+// let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
+// let doDaiMang = arr.length
+// let tong  = 0
+// for (i=0; i<doDaiMang; i++) {
+//     tong += arr[i]
+// }
+// console.log(tong)
 
 // // 1c
 // let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
@@ -74,6 +74,10 @@ console.log(tong)
 // let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
 // arr[0] = 117
 // console.log(arr)
+
+
+
+
 
 // // 1i
 // let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
