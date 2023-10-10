@@ -77,16 +77,16 @@ let doDaiMang = arr.length
 // console.log(arr_new)
 
 // // 1h
-// let chechTangDan = true
+// let checkTangDan = true
 // while (arr[i] !== undefined) {
 //     if (arr[i+1] < arr[i]) {
-//         chechTangDan = false
+//         checkTangDan = false
 //         break
 //     }
 //     i++
 // }
 
-// if (chechTangDan === true) {
+// if (checkTangDan === true) {
 //     console.log("mang tang dan")
 // } 
 // else {
@@ -107,7 +107,7 @@ let doDaiMang = arr.length
 //     }
 //     i = i +1
 // }
-// console.log(arr)
+// console.log("mang tang dan:", arr)
 
 // // 1j
 // while (arr[i] !== undefined) {
@@ -123,7 +123,9 @@ let doDaiMang = arr.length
 //     }
 //     i = i +1
 // }
-// console.log(arr)
+// console.log("mang giam dan:", arr)
+
+
 
 
 
@@ -140,16 +142,16 @@ let doDaiMang = arr.length
 
 
 
-// 1l
-while (arr[i] !== undefined) {
-    i++
-    if (arr[i]%2!=0) {
-        console.log('so le:', arr[i])
-    }    
-}
+// // 1l
+// while (arr[i] !== undefined) {
+//     i++
+//     if (arr[i]%2!=0) {
+//         console.log('so le:', arr[i])
+//     }    
+// }
 
 
-let arr2 = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14]
+// let arr2 = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14]
 
 
 // // 2a
