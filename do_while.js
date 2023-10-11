@@ -91,13 +91,32 @@ doDaiMang = arr.length
 // do {
 //     let j = i + 1
 //     do {
-//         j++
 //         if (arr[i] > arr[j]) {
 //             let tmp = arr[i]
 //             arr[i] = arr[j]
 //             arr[j] = tmp
 //         }
-//     }while(arr[i] !== undefined)
+//         j++
+//     }while(arr[j] !== undefined)
+    
+
+//     i++
+// }while(arr[i] !== undefined)
+
+
+// console.log(arr)
+
+// // 1j
+// do {
+//     let j = i + 1
+//     do {
+//         if (arr[i] < arr[j]) {
+//             let tmp = arr[i]
+//             arr[i] = arr[j]
+//             arr[j] = tmp
+//         }
+//         j++
+//     }while(arr[j] !== undefined)
     
 
 //     i++
@@ -114,13 +133,13 @@ doDaiMang = arr.length
 //     i++
 // }while(arr[i] !== undefined)
 
-// 1l
-do {
-    if (arr[i]%2 != 0) {
-        console.log("so le la:", arr[i])
-    }
-    i++
-}while(arr[i] !== undefined)
+// // 1l
+// do {
+//     if (arr[i]%2 != 0) {
+//         console.log("so le la:", arr[i])
+//     }
+//     i++
+// }while(arr[i] !== undefined)
 
 
 

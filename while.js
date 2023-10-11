@@ -153,7 +153,7 @@ let doDaiMang = arr.length
 
 // let arr2 = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14]
 
-
+let arr2 = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14]
 // // 2a
 // while (arr2[i] !== undefined) {
 //     let j = i+1
@@ -182,7 +182,7 @@ while (arr2[i] !== undefined) {
     }
     i = i +1
 }
-if (arr[i] = arr[i+1])
+if (arr2[i] = arr2[i+1])
 console.log(arr2)
 
 
