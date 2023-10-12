@@ -93,21 +93,21 @@ let doDaiMang = arr.length
 //     console.log("mang k tang dan")
 // }
 
-// // 1i
-// while (arr[i] !== undefined) {
-//     let j = i + 1
-//     while(arr[j] !== undefined) {
-//         if (arr[i] > arr[j]) {
-//             let tmp = arr[i]
-//             arr[i] = arr[j]
-//             arr[j] = tmp    
+// 1i
+while (arr[i] !== undefined) {
+    let j = i + 1
+    while(arr[j] !== undefined) {
+        if (arr[i] > arr[j]) {
+            let tmp = arr[i]
+            arr[i] = arr[j]
+            arr[j] = tmp    
             
-//         }
-//         j = j + 1
-//     }
-//     i = i +1
-// }
-// console.log("mang tang dan:", arr)
+        }
+        j = j + 1
+    }
+    i = i +1
+}
+console.log("mang tang dan:", arr)
 
 // // 1j
 // while (arr[i] !== undefined) {
@@ -168,23 +168,27 @@ let arr2 = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14]
 // }
 
 
-// 2b
-while (arr2[i] !== undefined) {
-    let j = i + 1
-    while(arr2[j] !== undefined) {
-        if (arr2[i] < arr2[j]) {
-            let tmp = arr2[i]
-            arr2[i] = arr2[j]
-            arr2[j] = tmp    
+// // 2b
+// let arr2_new = []
+// while (arr2[i] !== undefined) {
+//     let j = i + 1
+//     while(arr2[j] !== undefined) {
+//         if (arr2[i] < arr2[j]) {
+//             let tmp = arr2[i]
+//             arr2[i] = arr2[j]
+//             arr2[j] = tmp    
             
-        }
-        j = j + 1
-    }
-    i = i +1
-}
-if (arr2[i] = arr2[i+1])
-console.log(arr2)
-
+//         }
+//         j = j + 1
+//     }
+//     i = i +1
+// }
+// while(arr2[i] !== undefined) {
+//     if (arr2[i+1] === arr2[i]){
+//         u
+//     }
+// }
+// console.log(arr2_new)
 
 
 
